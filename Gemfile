@@ -5,7 +5,7 @@ gem 'gon'
 gem 'strong_parameters'
 gem 'rails', '3.2.11'
 gem 'bootstrap-sass', '2.1'
-gem 'pg'
+gem 'sqlite3', '~> 1.3.5'
 gem 'jquery-cookie-rails'
 gem 'json', '~>1.8'
 
@@ -13,6 +13,10 @@ group :development do
   gem 'annotate', '2.5.0'
   gem 'better_errors'
   gem 'binding_of_caller'
+end
+
+group :test do
+  gem 'test-unit'
 end
 
 group :assets do

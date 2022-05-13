@@ -68,8 +68,8 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.23)
     multi_json (1.7.3)
-    pg (0.15.1)
     polyglot (0.3.3)
+    power_assert (2.0.1)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -105,11 +105,14 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
+    sqlite3 (1.3.13)
     strong_parameters (0.2.3)
       actionpack (~> 3.0)
       activemodel (~> 3.0)
       activesupport (~> 3.0)
       railties (~> 3.0)
+    test-unit (3.5.3)
+      power_assert
     thor (0.18.1)
     tilt (1.4.1)
     treetop (1.4.12)
@@ -133,10 +136,11 @@ DEPENDENCIES
   jquery-cookie-rails
   jquery-rails
   json (~> 1.8)
-  pg
   rails (= 3.2.11)
   sass-rails (~> 3.2.3)
+  sqlite3 (~> 1.3.5)
   strong_parameters
+  test-unit
   uglifier (>= 1.0.3)
 
 RUBY VERSION
